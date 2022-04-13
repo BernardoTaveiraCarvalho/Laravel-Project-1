@@ -31,7 +31,7 @@ $arraybirthdate= array(
                 'email' => $arrayEmail[rand(0,count($arrayEmail)-1)],
 
                 'birthdate' => $arraybirthdate[rand(0,count($arraybirthdate)-1)],
-
+                'addres_id'     => rand(1, 10)
             ]);
         }
     }

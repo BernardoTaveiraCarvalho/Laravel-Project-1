@@ -10,6 +10,6 @@ $factory->define(Person::class, function (Faker $faker) {
         'name'  => $faker->name,
         'email' => $faker->email,
         'birthdate'   => $faker->date(),
-
+        'addres_id'     => rand(1, 7)
     ];
 });

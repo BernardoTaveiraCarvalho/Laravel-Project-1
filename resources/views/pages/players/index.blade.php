@@ -3,13 +3,6 @@
 
 @section('content')
 
-    <p>Address:  {{$player->address->address}}</p></td>
-    <p>Name: {{$player->name}}</p>
-    <p>Birth Date: {{$player->birth_date}}</p>
-    <p>Created At: {{$player->created_at}}</p>
-    <p>Updated At{{$player->updated_at}}</p>
-
-    @foreach($player->cars as $car)
-        <p>Car  {{$car->name}}</p>
-    @endforeach
+    @component('components.table.tablebase',['title'=>'Players','players'=>$players])
+    @endcomponent
 @endsection

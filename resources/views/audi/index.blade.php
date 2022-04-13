@@ -19,7 +19,7 @@
     'position'=>1])
     @endcomponent
     @component('components.card.cardsvar',[
-    'vetimg'=>['https://www.revistabula.com/wp/wp-content/uploads/2014/12/FELIZ1-610x350.png','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ553usYHEN_JbCFloGgJEgYNNHEBQP54BNfPqkWLEQshxh8XRKmnWqCsdRLfroJJbivwk&usqp=CAU'],'vettext'=>['ola','adeus']])
+    'vetimg'=>['https://www.revistabula.com/wp/wp-content/uploads/2014/12/FELIZ1-610x350.png','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ553usYHEN_JbCFloGgJEgYNNHEBQP54BNfPqkWLEQshxh8XRKmnWqCsdRLfroJJbivwk&usqp=CAU'],'vettext'=>['ola','adeus'],'vetbutton'=>['inserir','inserido']])
     @endcomponent
 
     @component('components.ImageText.textimage',['image'=>'https://sejaleve.com/wp-content/uploads/2018/02/pequenas-alegrias-diarias.png',

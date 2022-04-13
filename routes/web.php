@@ -21,3 +21,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/audi','AudiController@index');
+Route::get('/players','PlayerController@index');
+Route::get('/players/{player}','PlayerController@show');

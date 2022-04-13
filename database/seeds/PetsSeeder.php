@@ -20,9 +20,9 @@ class PetsSeeder extends Seeder
         $arraybirthdate= array(
             new DateTime("22-09-2003") ,new DateTime("25-09-2003")
         );
-
+        factory(\App\Pets::class, 100)->create();
         for($i=0;$i<50;$i++) {
-            factory(\App\Pets::class, 100)->create();
+
 
             \DB::table('pets')->insert([
                 'name'       => $arrayName[rand(0,count($arrayName)-1)],
